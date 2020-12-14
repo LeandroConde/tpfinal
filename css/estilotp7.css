@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+header{
+	background-image: url(../img/portada.jpg);
+	color: yellow;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+}
+
+body{
+	background-image: url('../img/fondo.png');
+	background-attachment: scroll;
+}
+nav li a{
+	display: inline-block;
+	background-color: black;
+	padding: 0.5em;
+	text-decoration: none;
+	color: white;
+}
+nav li a: hover{
+	background-color: grey;
+}
+section{
+	/* width: 50%; */
+	margin-left: 20em;
+}
+article{
+	background-color: white;
+	margin: 1em;
+}
+#snes{
+	text-align: center;
+	background-color: white;
+	border: solid black 0.01em; 
+}
+#sega{
+	text-align: center;
+	background-color: white;
+	border: solid black 0.01em;
+}
+#consola{
+	width: 80%;
+	height: 50%;
+}
+#sonidos{
+	width: 100%;
+}
+#logonintendo{
+	width: 50%;
+	vertical-align: middle;
+}
+#logosega{
+	width: 35%;
+	vertical-align: middle;
+}
+/* pantalla celular 360x640 */
+
+@media screen and (min-width: 360px){
+
+}
