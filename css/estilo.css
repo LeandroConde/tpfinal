@@ -1,0 +1,61 @@
+*{
+    margin:0 auto;
+    padding: 0;
+    border: 0;
+}
+
+.titulo{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.subtitulo{
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+body{
+    background-color: yellow;
+}
+nav{
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    border: black solid 1px;
+}
+main{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    border: black solid 1px;
+}
+aside{
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    border: black solid 1px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#pizzaEsp{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+form label{
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 0.5em;
+    width: 50%;
+}
+form button{
+    display: inline-block;
+    margin-top: 0.5em;
+    width: 50%;
+}
